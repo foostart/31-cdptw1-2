@@ -37,8 +37,39 @@
 
                                 <span class="onsale" style="    padding: 12px 12px;    background: red;    color: #eee;    font-weight: bold;">Sale!</span>
                                 <div class="images">
-                                    <a href="images/product-8.jpg" itemprop="image" class="woocommerce-main-image zoom hover_icon hover_icon_view" title="" data-rel="prettyPhoto" rel="magnific">
-                                        <img src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/></a>
+                                    <p href="images/product-8.jpg" itemprop="image" class="woocommerce-main-image zoom hover_icon hover_icon_view" title="" data-rel="prettyPhoto" rel="magnific">
+                                     
+                                            <!-- Swiper -->
+                                            <div class="swiper-container gallery-top">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide" >
+                                                        <img src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/>    
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="<?php echo $url_path ?>/images/product-3-300x300.jpg" alt=""/>    
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/>    
+                                                    </div>
+                                                </div>
+                                                <!-- Add Arrows -->
+                                                <div class="swiper-button-next swiper-button-white"></div>
+                                                <div class="swiper-button-prev swiper-button-white"></div>
+                                            </div>
+                                            <div class="swiper-container gallery-thumbs">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide" >
+                                                        <img src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/>    
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img src="<?php echo $url_path ?>/images/product-3-300x300.jpg" alt=""/>    
+                                                    </div>
+                                                    <div class="swiper-slide" >
+                                                        <img src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/>    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </p>
                                 </div>
                             </div>
                             <div class="col-md-6">

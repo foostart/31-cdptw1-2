@@ -40,6 +40,7 @@
         <script type="text/javascript" src="framework/swiper/swiper.js"></script>
         <script type="text/javascript" src="framework/shortcodes/theme.shortcodes.js"></script>
         <link href="<?php echo $url_path ?>/css/914.css" rel="stylesheet"/>
+        <script type="text/javascript" src="<?php echo $url_path ?>/js/914.js"></script>
     </head>
 
     <body>
