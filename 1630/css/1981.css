@@ -1,0 +1,122 @@
+.type-1981 .row {
+  border-top: 1px solid #eee;
+}
+.type-1981 .container {
+  width: 1250px;
+}
+.type-1981 .col-md-12 {
+  margin-top: 100px;
+}
+.type-1981 h4 {
+  color: #333;
+  font-family: "UTM Alexander";
+  font-size: 1.8em;
+}
+.type-1981 .Getintouch p {
+  color: #777;
+}
+.type-1981 .flex {
+  display: -webkit-box;
+}
+.type-1981 .flex .varse-social-icon a {
+  padding: 0 15px;
+}
+.type-1981 .flex .varse-social-icon a:hover {
+  color: #ff8969;
+}
+.type-1981 .follow .form {
+  flex: 1 1 auto;
+  border: 1px solid #ebebeb;
+  padding-top: 20px;
+  background: none;
+  height: 44px;
+  line-height: 50px;
+  border-radius: 0;
+  margin-bottom: 50px;
+  border: 0;
+}
+.type-1981 .follow .form input[type="email"] {
+  padding-left: 25px;
+  padding-right: 50px;
+}
+.type-1981 .follow .form input[type="submit"] {
+  position: absolute;
+  top: 130;
+  right: 45;
+  height: 50px;
+  line-height: 44px;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0;
+  width: 46px;
+  border-left: 1px solid #ebebeb;
+  background: url(images/button_newletter.png) no-repeat left top;
+}
+.type-1981 .follow .form img {
+  margin-left: 200px;
+  margin-top: -95px;
+}
+.type-1981 .follow .form input {
+  font-size: 13px;
+  padding: 0 10px 0 10px;
+  margin-bottom: 50px;
+  flex: 1 1 auto;
+  border: 1px solid #ebebeb;
+}
+.type-1981 .follow a {
+  font-size: 15px;
+  color: #777;
+}
+.type-1981 .follow a:hover {
+  color: #777;
+}
+.type-1981 .needhelp .need .onl {
+  padding-bottom: 12px;
+}
+.type-1981 .needhelp .need .cus {
+  padding-bottom: 12px;
+}
+.type-1981 .needhelp .need .pro {
+  padding-bottom: 12px;
+}
+.type-1981 .needhelp .need .bra {
+  padding-bottom: 12px;
+}
+.type-1981 .needhelp .need .res {
+  padding-bottom: 12px;
+}
+.type-1981 .needhelp a {
+  font-size: 15px;
+  color: #777;
+}
+.type-1981 .needhelp a:hover {
+  color: #ff8969;
+  text-decoration: none;
+}
+.type-1981 .information .inf .FA {
+  padding-bottom: 12px;
+}
+.type-1981 .information .inf .contact {
+  padding-bottom: 12px;
+}
+.type-1981 .information .inf .returns {
+  padding-bottom: 12px;
+}
+.type-1981 .information .inf .wish {
+  padding-bottom: 12px;
+}
+.type-1981 .information .inf .top {
+  padding-bottom: 12px;
+}
+.type-1981 .information a {
+  color: #777;
+}
+.type-1981 a:hover {
+  color: #ff8969;
+  text-decoration: none;
+}
+@media (max-width: 400px) {
+  .type-1981 .follow .img {
+    padding-left: -50px;
+  }
+}

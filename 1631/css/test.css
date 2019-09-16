@@ -1,0 +1,55 @@
+.blog {
+  font-size: 100px;
+  color: #106EAA;
+  text-align: center;
+}
+.post {
+  margin: 50px;
+}
+.post .author {
+  height: 128px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  color: #EEE;
+  background: #106EAA;
+  text-align: center;
+  padding: 0 143.7px;
+  padding-top: 20px;
+  position: absolute;
+  top: 15px;
+}
+.post .author div {
+  padding-top: 5px;
+  font-size: 20px;
+}
+.post .date {
+  color: #FFF;
+  margin-top: 15px;
+  background: #106EAA;
+  padding: 14.5px;
+  text-align: center;
+}
+.post .date .day {
+  color: #FFF;
+  font-size: 2.3em;
+  padding-bottom: 10px;
+  display: block;
+}
+.post .date .month {
+  color: #FFF;
+}
+.post .date .year {
+  color: #FFF;
+  display: block;
+  padding: 2px;
+}
+.post .comment-count {
+  margin-top: 15px;
+  background: #106EAA;
+  margin-left: -2em;
+  padding-top: 55px;
+}
+.post .comment-count div {
+  font-size: 2.3em;
+  color: #FFF;
+  padding-bottom: 8px;
+}

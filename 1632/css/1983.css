@@ -1,0 +1,197 @@
+.type-1983 .wishlist {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  background-color: #f9f9f9;
+}
+.type-1983 .wishlist h1 {
+  font-size: 52px;
+  color: #000000;
+  font-family: UTM Androgyne;
+}
+.type-1983 .wishlist div {
+  font-size: 15px;
+  padding-top: 10px;
+  color: #c2baba;
+}
+.type-1983 .wishlist div a {
+  color: #c2baba;
+}
+.type-1983 .wishlist div a:hover {
+  color: #ff8969;
+}
+.type-1983 .wishlist span:before {
+  content: "/";
+}
+.type-1983 .table {
+  margin-top: 70px;
+}
+.type-1983 .container {
+  padding-bottom: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-1983 .container .table {
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  padding: 16px 12px;
+  margin-top: 20px;
+}
+.type-1983 .container .table th {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: none;
+  padding-top: 10px;
+}
+.type-1983 .container td {
+  padding: 20px;
+  color: #777777;
+  text-align: end;
+}
+.type-1983 .container tbody {
+  padding-bottom: 18px;
+  font-size: 15px;
+}
+.type-1983 footer {
+  border-top: 1px solid #e7e7e7;
+}
+.type-1983 footer .foot {
+  margin-top: 50px;
+}
+.type-1983 .container {
+  width: 1250px;
+}
+.type-1983 h4 {
+  color: #333;
+  font-family: "UTM Alexander";
+  font-size: 1.8em;
+}
+.type-1983 .Getintouch p {
+  color: #777;
+}
+.type-1983 .flex {
+  display: -webkit-box;
+}
+.type-1983 .flex .varse-social-icon a {
+  padding: 0 15px;
+}
+.type-1983 .flex .varse-social-icon a:hover {
+  color: #ff8969;
+}
+.type-1983 .follow .form {
+  flex: 1 1 auto;
+  border: 1px solid #ebebeb;
+  padding-top: 20px;
+  background: none;
+  height: 44px;
+  line-height: 50px;
+  border-radius: 0;
+  margin-bottom: 50px;
+  border: 0;
+}
+.type-1983 .follow .form input[type="email"] {
+  padding-left: 25px;
+  padding-right: 50px;
+}
+.type-1983 .follow .form input[type="submit"] {
+  position: absolute;
+  top: 130;
+  right: 45;
+  height: 50px;
+  line-height: 44px;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0;
+  width: 46px;
+  border-left: 1px solid #ebebeb;
+  background: url(images/button_newletter.png) no-repeat left top;
+}
+.type-1983 .follow .form input {
+  font-size: 13px;
+  padding: 0 10px 0 10px;
+  margin-bottom: 50px;
+  flex: 1 1 auto;
+  border: 1px solid #ebebeb;
+}
+.type-1983 .follow .form input:hover {
+  border-color: #ebebeb;
+}
+.type-1983 .follow a {
+  font-size: 15px;
+  color: #777;
+}
+.type-1983 .follow a:hover {
+  color: #777;
+}
+.type-1983 .needhelp .need .onl {
+  padding-bottom: 12px;
+}
+.type-1983 .needhelp .need .cus {
+  padding-bottom: 12px;
+}
+.type-1983 .needhelp .need .pro {
+  padding-bottom: 12px;
+}
+.type-1983 .needhelp .need .bra {
+  padding-bottom: 12px;
+}
+.type-1983 .needhelp .need .res {
+  padding-bottom: 12px;
+}
+.type-1983 .needhelp a {
+  font-size: 15px;
+  color: #777;
+}
+.type-1983 .needhelp a:hover {
+  color: #ff8969;
+  text-decoration: none;
+}
+.type-1983 .information .inf .FA {
+  padding-bottom: 12px;
+}
+.type-1983 .information .inf .contact {
+  padding-bottom: 12px;
+}
+.type-1983 .information .inf .returns {
+  padding-bottom: 12px;
+}
+.type-1983 .information .inf .wish {
+  padding-bottom: 12px;
+}
+.type-1983 .information .inf .top {
+  padding-bottom: 12px;
+}
+.type-1983 .information a {
+  color: #777;
+}
+.type-1983 a:hover {
+  color: #ff8969;
+  text-decoration: none;
+}
+.type-1983 .copyright {
+  border-top: 1px solid #e7e7e7;
+}
+.type-1983 .foot2 {
+  padding-top: 30px;
+}
+.type-1983 .foot2 a {
+  color: #8f8f8f;
+  padding: 0 20px;
+}
+.type-1983 .foot2 a:hover {
+  color: #ff8969;
+  text-decoration: none;
+}
+.type-1983 .col-md-6 {
+  padding-bottom: 20px;
+}
+.type-1983 .col-md-6 p {
+  padding-top: 30px;
+}
+.type-1983 .col-md-6 p a {
+  text-decoration: none;
+  color: #ff8969;
+}

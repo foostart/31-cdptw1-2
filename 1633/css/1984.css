@@ -1,0 +1,115 @@
+.type-576 .navbar-default {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  height: 80px;
+}
+.type-576 .navbar-default .navbar-header .logo_image img {
+  margin-top: 30px;
+  max-height: 50px;
+}
+.type-576 .navbar-default .navbar-nav {
+  margin-top: 15px;
+  padding-left: 150px;
+}
+.type-576 .navbar-default .navbar-nav li a {
+  font-family: serif;
+  font-style: normal;
+  color: #444444;
+  display: block;
+  padding: 31px 25px 25px;
+  text-decoration: none;
+}
+.type-576 .navbar-default .navbar-nav li a:hover {
+  text-decoration: none;
+}
+.type-576 .navbar-default .navbar-nav li .dropdown-menu {
+  padding: 0;
+  padding-top: 40px;
+}
+.type-576 .navbar-default .navbar-nav li .dropdown-menu li {
+  padding-top: 10px;
+  margin-top: -50px;
+  width: 100%;
+}
+.type-576 .navbar-default .navbar-nav li .dropdown-menu li a {
+  color: #fff;
+  background-color: #000;
+}
+.type-576 .navbar-default .navbar-nav li .dropdown-menu li a:hover {
+  background-color: none;
+}
+.type-576 .navbar-default .navbar-nav .active-item a {
+  color: #444444;
+}
+.type-576 .navbar-default .navbar-collapse {
+  border: none;
+}
+.type-576 .navbar-default .navbar-collapse .nav li a:hover {
+  color: #ff8969;
+}
+.type-576 .navbar-default .icon {
+  margin-left: 50px;
+  margin-top: 45px;
+  float: left;
+  overflow: none;
+}
+.type-576 .navbar-default .icon .icon-search {
+  padding: 0 10px;
+  float: left;
+  color: #444444;
+}
+.type-576 .navbar-default .icon .icon-heart {
+  float: left;
+  padding: 0 10px;
+  color: #444444;
+}
+.type-576 .navbar-default .icon .icon-cart {
+  float: left;
+  padding: 0 10px;
+}
+.type-576 .navbar-default a {
+  color: #000;
+  font-size: 17px;
+}
+.type-576 .navbar-default a:hover {
+  color: #ff8969;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .type-576 .logo-text {
+    margin-left: 20px;
+  }
+  .type-576 .navbar-toggle {
+    margin-top: 20px;
+  }
+  .type-576 .icon {
+    padding-left: 100px;
+  }
+}
+.type-576 .shop {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 30px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+.type-576 .shop h1 {
+  font-size: 52px;
+  color: #000000;
+  font-family: UTM Alexander;
+}
+.type-576 .shop div {
+  font-size: 15px;
+  padding-top: 10px;
+  color: #c2baba;
+}
+.type-576 .shop div a {
+  color: #c2baba;
+}
+.type-576 .shop div a:hover {
+  color: #ff8969;
+}
+.type-576 .shop span:before {
+  content: "/";
+}
