@@ -1,9 +1,6 @@
 .type-1981 .row {
   border-top: 1px solid #eee;
 }
-.type-1981 .container {
-  width: 1250px;
-}
 .type-1981 .col-md-12 {
   margin-top: 100px;
 }
@@ -26,6 +23,7 @@
 }
 .type-1981 .follow .form {
   flex: 1 1 auto;
+  position: relative;
   border: 1px solid #ebebeb;
   padding-top: 20px;
   background: none;
@@ -35,14 +33,9 @@
   margin-bottom: 50px;
   border: 0;
 }
-.type-1981 .follow .form input[type="email"] {
-  padding-left: 25px;
-  padding-right: 50px;
-}
 .type-1981 .follow .form input[type="submit"] {
   position: absolute;
-  top: 130;
-  right: 45;
+  right: 0;
   height: 50px;
   line-height: 44px;
   padding: 0;
@@ -50,11 +43,15 @@
   font-size: 0;
   width: 46px;
   border-left: 1px solid #ebebeb;
-  background: url(images/button_newletter.png) no-repeat left top;
+}
+.type-1981 .follow .form input[type="email"] {
+  position: relative;
+  width: 100%;
 }
 .type-1981 .follow .form img {
-  margin-left: 200px;
-  margin-top: -95px;
+  position: absolute;
+  right: 0;
+  top: 5px;
 }
 .type-1981 .follow .form input {
   font-size: 13px;
@@ -62,6 +59,16 @@
   margin-bottom: 50px;
   flex: 1 1 auto;
   border: 1px solid #ebebeb;
+}
+.type-1981 .follow .form span {
+  position: absolute;
+  top: 0;
+  left: 80%;
+  right: 0;
+  bottom: 0;
+}
+.type-1981 .follow .form .form-newletter {
+  position: relative;
 }
 .type-1981 .follow a {
   font-size: 15px;
