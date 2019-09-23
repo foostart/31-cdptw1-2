@@ -140,7 +140,8 @@ a {
     }
 
     img {
-        max-width: 100%;
+        width: 100%;
+        height: auto;
     }
     img {
     -webkit-transition:all 0.5s ease-out;
@@ -155,6 +156,14 @@ a {
     -ms-transform:rotate(360deg);
     -o-transform:rotate(360deg);
     transform:rotate(360deg);
+    }
+    @media (max-width: 768px) {
+        h1{
+            font-size: 2em!important;
+        }
+        .description{
+            font-size: 0.9em;
+        }
     }
 }
 	

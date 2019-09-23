@@ -125,7 +125,8 @@ a {
   color: #fff;
 }
 .type-1317 img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 .type-1317 img {
   -webkit-transition: all 0.5s ease-out;
@@ -140,4 +141,9 @@ a {
   -ms-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
+}
+@media (max-width: 768px) {
+  .type-1317 h1 {
+    font-size: 2em !important;
+  }
 }

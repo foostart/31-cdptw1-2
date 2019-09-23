@@ -8,13 +8,13 @@ $(document).ready(function() {
         watchSlidesProgress: true,
         slideToClickedSlide: true,
       });
-    var galleryTop = new Swiper('.gallery-top', {
-        spaceBetween: 10,
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
+    var galleryTop = new Swiper('.gallery-top', {});
       galleryTop.controller.control = galleryThumbs;
     galleryThumbs.controller.control = galleryTop;
+
+    
+  $(".gallery-thumbs .swiper-slide").click(function() {
+    console.log($(this).children().prop('src'));
+    $(".gallery-top .swiper-slide>img").attr("src",$(this).children().prop('src'));
+  })
 })
