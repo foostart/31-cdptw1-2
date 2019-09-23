@@ -56,15 +56,30 @@
       &.item__delete button{
           border: none;
           background: none;
+          border-radius: 50%;
+          padding: 5px;
           &:hover{
               outline: none;
               border: none;
+              color: red;
+          }
+          &:focus{
+            background: #333;
+            outline: none;
+            border: none;
           }
       }
     }
     tr{
+      transition: 0.5s;
         &:nth-child(2n + 0 ){
             background: rgba(0, 0, 0, 0.2);
+            &:hover{
+              background: rgba(0, 0, 0, 0.1);
+            }
+        }
+        &:hover{
+          background: rgba(0, 0, 0, 0.1);
         }
     }
     tbody {
@@ -238,6 +253,9 @@
 
   //responsive
   @media (max-width: 768px){
+    h1{
+      font-size: 2em!important;
+    }
     footer {
        text-align: center;
       }
@@ -245,8 +263,23 @@
         text-align: center;
       }
       .table{
-        th{
-          font-size: 14px!important;
+        th,td{
+          font-size: 12px!important;
+        }
+      }
+  }
+  @media (max-width: 414px){
+      .table{
+        th,td{
+          font-size: 8px!important;
+        }
+      }
+      footer{
+        h4{
+          font-size: 1.5em;
+        }
+        p,a{
+          font-size: 0.8em!important;
         }
       }
   }

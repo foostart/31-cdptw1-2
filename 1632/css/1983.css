@@ -54,13 +54,30 @@
 .type-1983 .container td.item__delete button {
   border: none;
   background: none;
+  border-radius: 50%;
+  padding: 5px;
 }
 .type-1983 .container td.item__delete button:hover {
   outline: none;
   border: none;
+  color: red;
+}
+.type-1983 .container td.item__delete button:focus {
+  background: #333;
+  outline: none;
+  border: none;
+}
+.type-1983 .container tr {
+  transition: 0.5s;
 }
 .type-1983 .container tr:nth-child(2n + 0 ) {
   background: rgba(0,0,0,0.2);
+}
+.type-1983 .container tr:nth-child(2n + 0 ):hover {
+  background: rgba(0,0,0,0.1);
+}
+.type-1983 .container tr:hover {
+  background: rgba(0,0,0,0.1);
 }
 .type-1983 .container tbody {
   padding-bottom: 18px;
@@ -202,13 +219,30 @@
   color: #ff8969;
 }
 @media (max-width: 768px) {
+  .type-1983 h1 {
+    font-size: 2em !important;
+  }
   .type-1983 footer {
     text-align: center;
   }
   .type-1983 .copyright {
     text-align: center;
   }
-  .type-1983 .table th {
-    font-size: 14px !important;
+  .type-1983 .table th,
+  .type-1983 .table td {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 414px) {
+  .type-1983 .table th,
+  .type-1983 .table td {
+    font-size: 8px !important;
+  }
+  .type-1983 footer h4 {
+    font-size: 1.5em;
+  }
+  .type-1983 footer p,
+  .type-1983 footer a {
+    font-size: 0.8em !important;
   }
 }

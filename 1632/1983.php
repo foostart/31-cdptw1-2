@@ -17,6 +17,6 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body>
-         <?php include '../1983/1983-content.php'; ?>
+         <?php include '../1632/1983-content.php'; ?>
     </body>
 </html>
