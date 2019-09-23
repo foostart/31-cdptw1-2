@@ -1,4 +1,7 @@
 .type-1982{
+    @media (max-width: 768px) {
+        font-size: 8px;
+    }
     .container{
         margin-top: 500px;
         margin-bottom: 30px;
@@ -8,7 +11,7 @@
      
         padding-top: 30px;
         a{
-               color: #8f8f8f;
+            color: #8f8f8f;
             padding: 0 20px;
             
         }
@@ -20,11 +23,22 @@
     .col-md-6{
         p{
              padding-top: 30px;
+             text-align: right;
             a{
                 
               text-decoration: none;
             color: #ff8969;
         }
+        }
+    }
+    @media (max-width: 993px) {
+        .footer{
+            a{
+                padding: 0 10px;
+            }
+        }
+        .col-md-6, .col-md-6 p{
+            text-align: center;
         }
     }
 }

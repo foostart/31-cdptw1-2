@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>   
             </div>
                 <div class="col-md-6">
-                    <p style="text-align: right;">Copyright 2019. All rights reserved. Design by 
+                    <p>Copyright 2019. All rights reserved. Design by 
                     <a href="#">Joommasters.com</a></p>
         </div>
     </div>
