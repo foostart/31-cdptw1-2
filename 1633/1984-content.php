@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Module 1984</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <?php
-         if (!class_exists('lessc')) {
-             include ('./libs/lessc.inc.php');
-         }
-         $less = new lessc;
-         $less->compileFile('less/1984.less', 'css/1984.css');
-         ?>
-      <link href="css/1984.css" rel="stylesheet" type="text/css"/>
-      <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
-      <script src="js/bootstrap.min.js" type="text/javascript"></script>
-   </head>
-   <body>
+
       <div class="type-576">
          <!--BEGIN MENU -->
          <nav class="navbar-default" role="navigation">
             <div class="container">
                <!--BEGIN NAVMIN -->
                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-slide-dropdown">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-slide-dropdown"  aria-expanded="false">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -36,7 +17,7 @@
                </div>
                <!--END NAVMIN -->
                <!--BEGIN MENU CENTER-->
-               <div class="navbar-collapse" id="bs-slide-dropdown">
+               <div class="navbar-collapse collapse" id="bs-slide-dropdown">
                   <ul class="nav navbar-nav menu-center">
                      <!--HOME-->
                      <li class="dropdown active-item">
@@ -108,6 +89,5 @@
             </div>
          </nav>
       </div>
-      <script src="js/scripts.js" type="text/javascript"></script>
-   </body>
-</html>
+      
+     

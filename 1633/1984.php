@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Đồ án</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <title>Module 1984</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -22,6 +21,7 @@
 
     <body> 
         <?php include './1984-content.php'; ?>
+        <script src="js/scripts.js" type="text/javascript"></script>
     </body>
 
 </html>

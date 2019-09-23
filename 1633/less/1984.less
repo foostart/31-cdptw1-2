@@ -111,17 +111,52 @@
             }
             
     }
+    @media (max-width: 1200px) {
+        .icon{
+            display: none;
+        }
+        .navbar-nav.menu-center{
+            padding-left: 50px;
+            
+            >li>a{
+                font-size: 1em;
+                padding: 25px 15px;
+            }
+        }
+        
+    }
     @media (max-width: 768px) {
         .logo-text{
             margin-left: 20px;
         }
         .navbar-toggle {
-            margin-top: 20px;
+            margin-top: 40px;
         }
         .icon{
             padding-left: 100px;
         }
-        
+        .navbar-nav.menu-center{
+            text-align: center;
+        }
+        .navbar-toggle{
+            .icon-bar{
+                transition: 0.5s;
+            }
+
+            &:not(.collapsed){
+                .icon-bar{
+                    &:nth-child(1){
+                        transform: translateY(5px) rotate(45deg);
+                    }
+                    &:nth-child(2){
+                        opacity: 0;
+                    }
+                    &:nth-child(3){
+                        transform: translateY(-6px) rotate(-45deg);
+                    }
+                }
+            }
+        }
     }
     //nav
      //Nav
