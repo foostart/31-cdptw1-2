@@ -43,18 +43,9 @@
                                             <div class="swiper-container gallery-top">
                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide" >
-                                                        <img src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/>    
-                                                    </div>
-                                                    <div class="swiper-slide" >
-                                                        <img src="<?php echo $url_path ?>/images/product-3-300x300.jpg" alt=""/>    
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <img src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/>    
+                                                        <img class="img-responsive" src="<?php echo $url_path ?>/images/product-8-600x600 (2).jpg" alt=""/>    
                                                     </div>
                                                 </div>
-                                                <!-- Add Arrows -->
-                                                <div class="swiper-button-next swiper-button-white"></div>
-                                                <div class="swiper-button-prev swiper-button-white"></div>
                                             </div>
                                             <div class="swiper-container gallery-thumbs">
                                                 <div class="swiper-wrapper">
