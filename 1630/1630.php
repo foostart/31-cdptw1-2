@@ -10,13 +10,13 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/1981.less', 'css/1981.css');
+        $less->compileFile('less/1630.less', 'css/1630.css');
         ?>
-        <link href="css/1981.css" rel="stylesheet" type="text/css" />
+        <link href="css/1630.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body>
-         <?php include '../1630/1981-content.php'; ?>
+         <?php include '../1630/1630-content.php'; ?>
     </body>
 </html>

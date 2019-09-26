@@ -1,5 +1,5 @@
 
-    <section class="type-1981">
+    <section class="type-1630">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

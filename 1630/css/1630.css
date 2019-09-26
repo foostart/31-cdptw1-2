@@ -1,27 +1,27 @@
-.type-1981 .row {
+.type-1630 .row {
   border-top: 1px solid #eee;
 }
-.type-1981 .col-md-12 {
+.type-1630 .col-md-12 {
   margin-top: 100px;
 }
-.type-1981 h4 {
+.type-1630 h4 {
   color: #333;
   font-family: "UTM Alexander";
   font-size: 1.8em;
 }
-.type-1981 .Getintouch p {
+.type-1630 .Getintouch p {
   color: #777;
 }
-.type-1981 .flex {
+.type-1630 .flex {
   display: -webkit-box;
 }
-.type-1981 .flex .varse-social-icon a {
+.type-1630 .flex .varse-social-icon a {
   padding: 0 15px;
 }
-.type-1981 .flex .varse-social-icon a:hover {
+.type-1630 .flex .varse-social-icon a:hover {
   color: #ff8969;
 }
-.type-1981 .follow .form {
+.type-1630 .follow .form {
   flex: 1 1 auto;
   position: relative;
   border: 1px solid #ebebeb;
@@ -33,7 +33,7 @@
   margin-bottom: 50px;
   border: 0;
 }
-.type-1981 .follow .form input[type="submit"] {
+.type-1630 .follow .form input[type="submit"] {
   position: absolute;
   right: 0;
   height: 50px;
@@ -44,86 +44,86 @@
   width: 46px;
   border-left: 1px solid #ebebeb;
 }
-.type-1981 .follow .form input[type="email"] {
+.type-1630 .follow .form input[type="email"] {
   position: relative;
   width: 100%;
 }
-.type-1981 .follow .form img {
+.type-1630 .follow .form img {
   position: absolute;
   right: 0;
   top: 5px;
 }
-.type-1981 .follow .form input {
+.type-1630 .follow .form input {
   font-size: 13px;
   padding: 0 10px 0 10px;
   margin-bottom: 50px;
   flex: 1 1 auto;
   border: 1px solid #ebebeb;
 }
-.type-1981 .follow .form span {
+.type-1630 .follow .form span {
   position: absolute;
   top: 0;
   left: 80%;
   right: 0;
   bottom: 0;
 }
-.type-1981 .follow .form .form-newletter {
+.type-1630 .follow .form .form-newletter {
   position: relative;
 }
-.type-1981 .follow a {
+.type-1630 .follow a {
   font-size: 15px;
   color: #777;
 }
-.type-1981 .follow a:hover {
+.type-1630 .follow a:hover {
   color: #777;
 }
-.type-1981 .needhelp .need .onl {
+.type-1630 .needhelp .need .onl {
   padding-bottom: 12px;
 }
-.type-1981 .needhelp .need .cus {
+.type-1630 .needhelp .need .cus {
   padding-bottom: 12px;
 }
-.type-1981 .needhelp .need .pro {
+.type-1630 .needhelp .need .pro {
   padding-bottom: 12px;
 }
-.type-1981 .needhelp .need .bra {
+.type-1630 .needhelp .need .bra {
   padding-bottom: 12px;
 }
-.type-1981 .needhelp .need .res {
+.type-1630 .needhelp .need .res {
   padding-bottom: 12px;
 }
-.type-1981 .needhelp a {
+.type-1630 .needhelp a {
   font-size: 15px;
   color: #777;
 }
-.type-1981 .needhelp a:hover {
+.type-1630 .needhelp a:hover {
   color: #ff8969;
   text-decoration: none;
 }
-.type-1981 .information .inf .FA {
+.type-1630 .information .inf .FA {
   padding-bottom: 12px;
 }
-.type-1981 .information .inf .contact {
+.type-1630 .information .inf .contact {
   padding-bottom: 12px;
 }
-.type-1981 .information .inf .returns {
+.type-1630 .information .inf .returns {
   padding-bottom: 12px;
 }
-.type-1981 .information .inf .wish {
+.type-1630 .information .inf .wish {
   padding-bottom: 12px;
 }
-.type-1981 .information .inf .top {
+.type-1630 .information .inf .top {
   padding-bottom: 12px;
 }
-.type-1981 .information a {
+.type-1630 .information a {
   color: #777;
 }
-.type-1981 a:hover {
+.type-1630 a:hover {
   color: #ff8969;
   text-decoration: none;
 }
 @media (max-width: 400px) {
-  .type-1981 .follow .img {
+  .type-1630 .follow .img {
     padding-left: -50px;
   }
 }

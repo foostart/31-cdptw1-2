@@ -9,9 +9,4 @@ $(document).ready(function(){
             $(this).toggleClass('open');       
         }
     );
-
-    $("[data-toggle='collapse']").click(function(){
-        console.log("sd")
-    })
-    console.log( $("[data-toggle='collapse']"));
 });
